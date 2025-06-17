@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUTRIFORCE | Suplementos Deportivos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="marquee">
+            <span>● ENERGÍA GARANTIZADA ● ENVÍO GRATIS EN COMPRAS SUPERIORES A $20.000 ● ENERGÍA GARANTIZADA ● </span>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#" class="nav-logo">NUTRIFORCE</a>
+        <button class="hamburger-menu" id="hamburger-menu" aria-label="Abrir menú de navegación">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <nav class="nav-links" id="desktop-nav-links">
+            <a href="#catalogo">Productos</a><a href="#nosotros">Nosotros</a><a href="#diferenciales">¿Por qué elegirnos?</a><a href="#faq">FAQ</a><a href="#contacto">Contacto</a>
+        </nav>
+        <nav class="mobile-nav-menu" id="mobile-nav-menu">
+            <a href="#catalogo" class="mobile-nav-link">Productos</a><a href="#nosotros" class="mobile-nav-link">Nosotros</a><a href="#diferenciales" class="mobile-nav-link">¿Por qué elegirnos?</a><a href="#faq" class="mobile-nav-link">FAQ</a><a href="#contacto" class="mobile-nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Impulsá tu rendimiento</h1>
+            <p>Suplementos deportivos diseñados para llevarte al siguiente nivel.</p>
+            <a href="#catalogo" class="cta-button">Ver productos</a>
+        </div>
+    </section>
+
+    <!-- CATALOGO DE PRODUCTOS -->
+    <section id="catalogo" class="catalogo">
+        <h2 class="catalogo-titulo">Nuestros Productos</h2>
+        <div class="filter-toggle-wrapper">
+          <button id="toggle-filters-btn" class="cta-button light">Mostrar Filtros <i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="filters-container collapsed" id="filters-container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar producto por nombre..." aria-label="Buscar productos">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="product-filters">
+                <div class="filter-group">
+                    <h3>Tipo de Producto</h3>
+                    <div id="category-filters" class="filter-options"></div>
+                </div>
+                <div class="filter-group">
+                    <h3>Etiquetas</h3>
+                    <div id="tag-filters" class="filter-options"></div>
+                </div>
+                <button id="reset-filters-btn" class="cta-button small">Limpiar Filtros</button>
+            </div>
+        </div>
+        <div class="productos-grid" id="productos-grid"><p>Cargando productos...</p></div>
+    </section>
+
+    <!-- OTRAS SECCIONES -->
+    <section id="nosotros" class="section-padded section-light-bg">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <div class="about-us-container">
+            <img src="img/modelo-sonrriendo.png" alt="Modelo sonriendo" class="about-us-image" loading="lazy">
+            <div class="about-us-text-content">
+                <p>En <strong>NutriForce</strong>, somos más que una tienda de suplementos; somos tu socio en el camino hacia un rendimiento óptimo y una vida más saludable.</p>
+                <p>Seleccionamos cuidadosamente cada producto, trabajando solo con marcas de primer nivel que garantizan pureza, eficacia y seguridad.</p>
+                <p>Nuestro equipo está formado por profesionales y deportistas que entienden tus necesidades y están listos para asesorarte.</p>
+            </div>
+        </div>
+    </section>
+    <section id="diferenciales" class="section-padded">
+        <h2 class="section-title">¿Por qué elegirnos?</h2>
+        <div class="diferenciales-grid">
+            <div class="diferencial-item"><i class="fas fa-certificate"></i><h3>Calidad Certificada</h3><p>Solo productos de las marcas más confiables.</p></div>
+            <div class="diferencial-item"><i class="fas fa-truck"></i><h3>Envío Rápido</h3><p>Tu pedido en la puerta de tu casa.</p></div>
+            <div class="diferencial-item"><i class="fas fa-handshake"></i><h3>Atención Personalizada</h3><p>Asesoramiento experto para que encuentres lo ideal.</p></div>
+            <div class="diferencial-item"><i class="fas fa-shield-alt"></i><h3>Compra Segura</h3><p>Protegemos tus datos y transacciones.</p></div>
+        </div>
+    </section>
+    <section id="faq" class="section-padded section-light-bg">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="faq-container section-content-narrow">
+            <div class="faq-item"><h3 class="faq-question">¿Son seguros los suplementos que venden?</h3><p class="faq-answer">Sí, solo trabajamos con marcas reconocidas y productos que cumplen con los más altos estándares de calidad.</p></div>
+            <div class="faq-item"><h3 class="faq-question">¿Hacen envíos a todo el país?</h3><p class="faq-answer">Sí, realizamos envíos a todo el territorio de Argentina.</p></div>
+            <div class="faq-item"><h3 class="faq-question">¿Puedo retirar mi pedido?</h3><p class="faq-answer">Sí, ofrecemos la opción de retiro en nuestro punto de venta en Mendoza, coordinando previamente.</p></div>
+            <div class="faq-item"><h3 class="faq-question">¿Cómo sé qué suplemento es para mí?</h3><p class="faq-answer">Si tienes dudas, ¡contáctanos! Nuestro equipo te brindará asesoramiento personalizado.</p></div>
+        </div>
+    </section>
+    <section id="contacto" class="section-padded">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container section-content-narrow">
+            <div class="contact-form">
+                <h3>Envíanos un Mensaje</h3>
+                <form><input type="text" placeholder="Tu Nombre" required><input type="email" placeholder="Tu Email" required><textarea placeholder="Tu Mensaje" rows="5" required></textarea><button type="submit" class="cta-button">Enviar Mensaje</button></form>
+            </div>
+            <div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.745422894572!2d-68.8471373847585!3d-32.88936458092043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0915f02ab7c7%3A0x7d0a2d3e4f8a8b1!2sMendoza%2C%2C%20Capital%2C%2C%20Mendoza%2C%20Argentina!5e0!3m2!1ses-419!2sar!4v1678901234567!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </section>
+
+    <!-- Botón y panel del carrito -->
+    <button class="cart-button" aria-label="Abrir carrito de compras"><img src="img/icons/carro-de-la-carretilla.png" alt="Carrito" width="24" height="24"></button>
+    <div id="cart-panel" class="cart-panel"><h2>Tu Carrito</h2><ul id="cart-items"></ul><p id="cart-total"><strong>Total:</strong> $0</p><div class="cart-actions"><button class="cta-button small">Vaciar carrito</button><a id="whatsapp-link" href="#" target="_blank" class="cta-button small">Comprar ahora!</a></div></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-logo">NUTRIFORCE</h2>
+            <div class="footer-info"><p>📍 Mendoza, Argentina</p><p>📩 contacto@nutriforce.com</p><p>📞 +54 9 261 1234567</p></div>
+            <div class="footer-redes"><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a><a href="#" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+            <a href="#" id="terms-link" class="footer-terms-link">Términos y Condiciones</a>
+            <p class="developer-signature">Desarrollado por Diego Väff</p>
+        </div>
+        <p class="footer-copy">&copy; 2025 NUTRIFORCE. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- MODALES -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content product-modal-content">
+            <span class="close-modal">×</span>
+            <div class="modal-product-details">
+                <div class="modal-product-gallery">
+                    <div class="carousel-main-image-container"><img id="modal-carousel-main-img" src="" alt="Producto"><button class="carousel-nav-btn prev-btn" id="carousel-prev-btn"><i class="fas fa-chevron-left"></i></button><button class="carousel-nav-btn next-btn" id="carousel-next-btn"><i class="fas fa-chevron-right"></i></button></div>
+                    <div class="carousel-thumbnails" id="modal-carousel-thumbnails"></div>
+                </div>
+                <div class="modal-product-info">
+                    <h3 id="modal-name"></h3><div id="modal-tags" class="product-tags"></div><p id="modal-description"></p>
+                    <div class="modal-options"><label for="product-variant-select">Presentación:</label><select id="product-variant-select"></select></div>
+                    <div class="modal-quantity-selector"><label for="modal-quantity-input">Cantidad:</label><input type="number" id="modal-quantity-input" value="1" min="1"><span id="modal-stock-info" class="stock-info"></span></div>
+                    <p id="modal-price" class="price"></p><button class="cta-button" id="add-to-cart-modal-btn">¡Lo quiero!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SCRIPTS Y NOTIFICACIÓN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+    <div id="toast-notification" class="toast"></div>
+
+</body>
+</html>
