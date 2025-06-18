@@ -69,8 +69,8 @@ cd nutriforce
 
 ## 📸 Capturas / Screenshots
 
-![Hero Section](https://via.placeholder.com/800x400.png?text=NutriForce+Hero)  
-![Catálogo con Filtros](https://via.placeholder.com/800x400.png?text=Cat%C3%A1logo+Interactivo)
+![Hero Section](/img/Hero-section.png)  
+![Catálogo con Filtros](/img/buscador-filtros.png)
 
 ---
 
@@ -101,5 +101,3 @@ Publicado bajo licencia [MIT](LICENSE)
 Released under the [MIT](LICENSE) License
 
 ---
-
-ESTA ES UNA PRUEBA PARA VER SI ESTÁ CONECTADO A GITHUB!!!
