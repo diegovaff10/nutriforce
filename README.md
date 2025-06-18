@@ -74,17 +74,6 @@ cd nutriforce
 
 ---
 
-## 🔐 Credenciales públicas Supabase (demo) / Supabase Public Credentials (demo)
-
-> Estas claves son públicas para fines educativos. / These keys are public for demo purposes.
-
-```js
-const SUPABASE_URL = 'https://msphufzcveevphkbhkop.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJ...tu_clave...saE';
-```
-
----
-
 ## 👨‍💻 Autor / Author
 
 Desarrollado por **Diego Väff**  
